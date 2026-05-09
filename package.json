@@ -6,8 +6,8 @@
   "type": "module",
   "scripts": {
     "dev": "tsx src/index.ts",
-    "build": "echo no build",
-    "start": "tsx src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate",
     "db:studio": "drizzle-kit studio"
